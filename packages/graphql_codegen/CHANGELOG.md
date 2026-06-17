@@ -1,3 +1,11 @@
+# 3.1.0
+
+- Support `analyzer` 10. `gql_code_builder` is temporarily pinned to a
+  `gql-dart/gql` commit that supports analyzer 9.x/10.x (gql-dart/gql#505),
+  since the published `gql_code_builder` 0.15.1 still caps `analyzer <=9.0.0`.
+  Switch back to a published `gql_code_builder` once one supporting analyzer 10
+  is released.
+
 # 3.0.1
 
 - Propagate deprecated annotation on input types.
